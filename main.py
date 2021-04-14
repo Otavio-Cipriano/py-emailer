@@ -4,7 +4,6 @@ from datetime import datetime
 from scrapy import find_jobs
 from emailer import send_email
 
-
 if __name__ == '__main__':
     while True:
         time_to_wait = '21:00'
