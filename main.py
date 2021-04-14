@@ -10,7 +10,7 @@ if __name__ == '__main__':
         current_time =str(datetime.utcnow().time())[:5]
         message = ''
         
-        if current_time == '05:52':
+        if current_time == '05:58':
 
             jobs = find_jobs()
         
