@@ -22,3 +22,4 @@ if __name__ == '__main__':
             send_email(message)
             print(f'Waiting to {time_to_wait}...')
             sleep(60 * 60)
+    

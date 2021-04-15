@@ -10,7 +10,7 @@ if __name__ == '__main__':
         current_time =str(datetime.utcnow().time())[:5]
         message = ''
         
-        if current_time == time_to_wait:
+        if current_time >= time_to_wait and current_time <= time_to_wait:
 
             jobs = find_jobs()
         
@@ -22,3 +22,4 @@ if __name__ == '__main__':
             send_email(message)
             print(f'Waiting to {time_to_wait}...')
             sleep(60 * 60)
+    sleep(5)
